@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
+    <title>Currency Converter</title>
+</head>
+<body class="h-full relative">
+    <div class="absolute inset-0 z-0">
+        <img src="images/background.png" alt="Background" class="w-full h-full object-cover blur-sm">
+        <div class="absolute inset-0 bg-black/40"></div>
+    </div>
+    <div class="relative z-10 min-h-screen flex items-center justify-center p-4">
+        <div class="w-full max-w-md bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl p-6 space-y-8">
+            <div class="text-center">
+                <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">Currency Converter</h1>
+                <p class="text-blue-200">Quick and easy conversion</p>
+            </div>
+            <div class="space-y-6">
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-white">From</label>
+                    <select class="w-full px-4 py-2 rounded-lg border border-white/20 bg-neutral-700 text-white focus:ring-2 focus:ring-blue-400 focus:border-blue-400">
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="JPY">JPY - Japanese Yen</option>
+                        <option value="JPY">EGP - Egyption Pound</option>
+                    </select>
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-white">Amount</label>
+                    <input type="number" min ="0" placeholder="Enter amount" class="w-full px-4 py-2 rounded-lg border border-white/20 bg-white/10 text-white placeholder-gray-300 focus:ring-2 focus:ring-blue-400 focus:border-blue-400">
+                </div>
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-white">To</label>
+                    <select class="w-full px-4 py-2 rounded-lg border border-white/20 bg-neutral-700 text-white focus:ring-2 focus:ring-blue-400 focus:border-blue-400">
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="JPY">JPY - Japanese Yen</option>
+                        <option value="JPY">EGP - Egyption Pound</option>
+                    </select>
+                </div>
+                <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300 transform hover:scale-105">
+                    Convert Currency
+                </button>
+                <div class="mt-6 p-4 bg-white/10 border border-white/20 rounded-lg">
+                    <p class="text-center text-sm text-blue-200 font-medium">Converted Amount</p>
+                    <p class="text-center text-2xl font-bold text-white">$0.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="w-full h-auto bg-[#5C5C5C]">
+        <h1 class = "flex justify-center font-bold text-2xl sm:text-3xl  pt-5 text-white">♫ Created By Moaz ♫</h1>
+        <div class="w-full h-auto flex justify-center gap-4 sm:gap-8 mt-10 py-3">
+            <a class = "text-5xl sm:text-6xl text-[#0866FF] hover:text-[#0959d9]" href="https://www.facebook.com/moaz.khaled.419159" target="_blank"><i class="fi fi-brands-facebook"></i></a>
+            <a class = "text-5xl sm:text-6xl text-[#9200F9] hover:text-[#7e06d4]" href="https://www.instagram.com/mo3az_2003/" target="_blank"><i class="fi fi-brands-instagram"></i></a>
+            <a class = "text-5xl sm:text-6xl text-[#23c45e] hover:text-[#1eb354]" href="https://wa.me/+0201117524824" target="_blank"><i class="fi fi-brands-whatsapp"></i></a>
+            <a class = "text-5xl sm:text-6xl text-[#0A66C2] hover:text-[#0d58a3]" href="https://www.linkedin.com/in/moaz-khaled-250b292b0/" target="_blank"><i class="fi fi-brands-linkedin"></i></a>
+            <a class = "text-5xl sm:text-6xl text-black hover:text-[rgb(64, 62, 62)]" href="https://github.com/moaaz-khaled" target="_blank"><i class="fi fi-brands-github"></i></a>
+        </div>
+    </footer>
+</body>

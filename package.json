@@ -1,0 +1,12 @@
+{
+  "name": "currency-conversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "npx tailwindcss -i dist/input.css -o dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
