@@ -8,7 +8,7 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
     <title>Currency Converter</title>
 </head>
-<body class="h-full relative">
+<body class="h-full relative overflow-y-hidden">
     <div class="absolute inset-0 z-0">
         <img src="images/background.png" alt="Background" class="w-full h-full object-cover blur-sm">
         <div class="absolute inset-0 bg-black/40"></div>
@@ -23,11 +23,11 @@
                 <div class="space-y-2">
                     <label class="block text-sm font-medium text-white">From</label>
                     <select id="ExchangeFrom" class="w-full px-4 py-2 rounded-lg border border-white/20 bg-neutral-700 text-white focus:ring-2 focus:ring-blue-400 focus:border-blue-400">
-                        <option value="USD">USD - US Dollar</option>
-                        <option value="EUR">EUR - Euro</option>
-                        <option value="GBP">GBP - British Pound</option>
-                        <option value="JPY">JPY - Japanese Yen</option>
-                        <option value="EGP">EGP - Egyption Pound</option>
+                        <option value="USD">$ USD - US Dollar</option>
+                        <option value="EUR">Є EUR - Euro</option>
+                        <option value="GBP">£ GBP - British Pound</option>
+                        <option value="JPY">¥ JPY - Japanese Yen</option>
+                        <option value="EGP">E£ EGP - Egyption Pound</option>
                     </select>
                 </div>
                 <div class="space-y-2">
@@ -37,11 +37,11 @@
                 <div class="space-y-2">
                     <label class="block text-sm font-medium text-white">To</label>
                     <select id="ExchangeTo" class="w-full px-4 py-2 rounded-lg border border-white/20 bg-neutral-700 text-white focus:ring-2 focus:ring-blue-400 focus:border-blue-400">
-                        <option value="EUR">EUR - Euro</option>
-                        <option value="USD">USD - US Dollar</option>
-                        <option value="GBP">GBP - British Pound</option>
-                        <option value="JPY">JPY - Japanese Yen</option>
-                        <option value="EGP">EGP - Egyption Pound</option>
+                        <option value="EUR">Є EUR - Euro</option>
+                        <option value="USD">$ USD - US Dollar</option>
+                        <option value="GBP">£ GBP - British Pound</option>
+                        <option value="JPY">¥ JPY - Japanese Yen</option>
+                        <option value="EGP">E£ EGP - Egyption Pound</option>
                     </select>
                 </div>
                 <button id="ExchangeBtn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300 transform hover:scale-105">
